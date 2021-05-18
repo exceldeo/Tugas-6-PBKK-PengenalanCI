@@ -10,19 +10,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </head>
 <body> 
     <div class="container-fluid">
-        <div class="jumbotron parallax">
-            <div class="card">
-                <div class="color-5">
-                    <!-- <img class="image" src="/assets/image/profile2.png" alt="profile"> -->
-                        <h1>Excel Deo Cornelius <br> 05111840000117</h1>
-                    <h2>
-                        <div id="clock"></div>
-                    </h2>
-                </div>
+		<a href="<?php echo base_url('welcome') ?>" class="btn btn-primary">Kembali</a>
+
+        <div class="card">
+                    <h3 class="title">
+                        Contact Us
+                    </h3>
+            <a href="https://www.instagram.com/exceldeo27/?hl=id" target="_blank" rel="noopener noreferrer" >
+                <!-- <img src="/assets/image/instagram.png" alt="instagram" srcset="" width="50px" > -->
+            </a>
+            <div style="font-size: 20pt;">
+                @exceldeo27
             </div>
         </div>
-		<a href="<?php echo base_url('welcome/about') ?>" class="btn btn-primary">About Us</a>
-		<a href="<?php echo base_url('welcome/contact') ?>" class="btn btn-primary">Contact Us</a>
+
+        
     </div>
 
 
